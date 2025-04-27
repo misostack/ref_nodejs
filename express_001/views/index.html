@@ -1,5 +1,19 @@
 <%- include('header.html') -%>
-    <h1 class="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+<div class="max-w-sm mx-auto">
+  <h1 class="text-3xl font-bold">Hello world!</h1>
+  <div class="mt-4">
+    <a
+    class="underline"
+    href="/files/sample.xlsx"
+    >Download files/sample.xlsx</a
+  >    
+  </div>
+  <div class="block mt-4">
+    <a
+      class="text-white bg-red-700 hover:bg-red-800 rounded-lg text-sm p-4 w-full block"
+      href="/logout"
+      >logout</a
+    >
+  </div>  
+</div>
 <%- include('footer.html') -%>
